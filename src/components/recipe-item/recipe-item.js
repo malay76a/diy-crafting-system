@@ -19,19 +19,19 @@ class RecipeItem extends LitElement {
       readiness: {
         num: '70%',
         description: '',
-        extra: 'готовность'
+        extra: 'готовность',
       },
       duration: {
         num: '3',
         description: 'недели',
-        extra: 'длительность'
+        extra: 'длительность',
       },
       need: {
         num: '14',
         description: 'товаров',
-        extra: 'необходимы'
-      }
-    }
+        extra: 'необходимы',
+      },
+    };
   }
 
   static get styles() {

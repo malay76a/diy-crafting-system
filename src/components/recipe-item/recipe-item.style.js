@@ -87,11 +87,6 @@ export const common = css`
     align-items: center;
   }
 
-
-  
-
-  
-
   h2,
   .sum {
     font-size: 18px;
