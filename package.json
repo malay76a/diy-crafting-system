@@ -17,7 +17,7 @@
     "build": "rimraf dist && rollup -c rollup.config.js",
     "start": "owc-dev-server --app-index index.html --open --watch",
     "storybook": "start-storybook -p 9001",
-    "storybook:build": "build-storybook -o _site -s storybook-static",
+    "storybook:build": "build-storybook -o docs -s storybook-static",
     "site:build": "npm run storybook:build"
   },
   "devDependencies": {
